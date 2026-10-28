@@ -1,0 +1,5 @@
+{
+  "name": "Targi Hasta - System",
+  "description": "Aplikacja dla wystawców do rejestrowania zamówień i generowania biletów, oraz panel administratora z animowanym kołem fortuny do losowania nagród.",
+  "requestFramePermissions": []
+}

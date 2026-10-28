@@ -1,0 +1,172 @@
+{
+  "settings": {
+    "adminPassword": "admin123",
+    "fairName": "Targi HASta",
+    "allowExhibitorDelete": true,
+    "currency": "PLN",
+    "ticketPrefix": "#",
+    "erpApiKey": "erp_live_711db2974bb172c18956bc62b237c4a0da62b5c698d43e44"
+  },
+  "exhibitors": [
+    {
+      "id": "ex-1",
+      "name": "Stoisko Główne HASta",
+      "accessCode": "HA-101",
+      "boothNumber": "A-01",
+      "createdAt": 1793115943423
+    },
+    {
+      "id": "ex-2",
+      "name": "Dostawca Premium Tech",
+      "accessCode": "PT-202",
+      "boothNumber": "B-04",
+      "createdAt": 1793116543423
+    },
+    {
+      "id": "16a027f3-4dce-41ee-9af4-7b98795d8e2a",
+      "name": "Firma Testowa Sp. z o.o.",
+      "accessCode": "SZ-155",
+      "boothNumber": "C-10",
+      "createdAt": 1793119642598
+    },
+    {
+      "id": "468598fb-6747-4162-a4a8-dbdedfedec4f",
+      "name": "Firma Testowa Sp. z o.o.",
+      "accessCode": "KY-530",
+      "boothNumber": "C-10",
+      "createdAt": 1793120019108
+    },
+    {
+      "id": "10abaab3-a3cc-4afd-8ab0-9f82644e7247",
+      "name": "Titanum",
+      "accessCode": "LR-763",
+      "boothNumber": "45",
+      "createdAt": 1793121549467
+    },
+    {
+      "id": "79c6ef14-14fb-42fa-adc8-dceec9bd603a",
+      "name": "Paweł",
+      "accessCode": "CY-435",
+      "boothNumber": "1",
+      "createdAt": 1793122819765
+    },
+    {
+      "id": "7fe39e20-78cc-4b22-b213-f0593fb3089e",
+      "name": "Firma Testowa Sp. z o.o.",
+      "accessCode": "KT-305",
+      "boothNumber": "C-10",
+      "createdAt": 1793123453310
+    },
+    {
+      "id": "d1261b31-7576-4949-8286-3a80c99e38c9",
+      "name": "Firma Testowa Sp. z o.o.",
+      "accessCode": "KQ-273",
+      "boothNumber": "C-10",
+      "createdAt": 1793123644716
+    }
+  ],
+  "orders": [
+    {
+      "id": "169b368a-42d2-4145-b349-5fe529a7b2a9",
+      "clientName": "Jan Kowalski - Sklep Ogrodniczy",
+      "orderValue": 8400,
+      "ticketNumber": "#A3EB90",
+      "createdAt": 1793119642602,
+      "isWinner": true,
+      "exhibitorId": "16a027f3-4dce-41ee-9af4-7b98795d8e2a",
+      "createdBy": "Firma Testowa Sp. z o.o.",
+      "syncedToErp": true,
+      "erpSyncedAt": 1793123453325,
+      "erpReference": "ERP-FAKTURA-2026/01"
+    },
+    {
+      "id": "2b2931fa-a933-4636-b5f4-4468743a32b2",
+      "clientName": "Jan Kowalski - Sklep Ogrodniczy",
+      "orderValue": 8400,
+      "ticketNumber": "#5CB7E7",
+      "createdAt": 1793120019111,
+      "isWinner": true,
+      "exhibitorId": "468598fb-6747-4162-a4a8-dbdedfedec4f",
+      "createdBy": "Firma Testowa Sp. z o.o.",
+      "syncedToErp": true,
+      "erpSyncedAt": 1793123644737,
+      "erpReference": "ERP-FAKTURA-2026/01"
+    },
+    {
+      "id": "94b75540-af1b-4efa-83c4-5eb73374166a",
+      "clientName": "26725",
+      "orderValue": 15210,
+      "ticketNumber": "#180FA4",
+      "createdAt": 1793121647456,
+      "isWinner": true,
+      "exhibitorId": "ex-1",
+      "createdBy": "Stoisko Główne HASta"
+    },
+    {
+      "id": "c12d0ed6-94a8-442c-acbc-b1336e6b4352",
+      "clientName": "22548",
+      "orderValue": 3520,
+      "ticketNumber": "#8DF08F",
+      "createdAt": 1793121757253,
+      "isWinner": false,
+      "exhibitorId": "ex-2",
+      "createdBy": "Dostawca Premium Tech"
+    },
+    {
+      "id": "63ea63ec-7892-475d-8950-43dede71dfe5",
+      "clientName": "3",
+      "orderValue": 12548,
+      "ticketNumber": "#DF1746",
+      "createdAt": 1793121899768,
+      "isWinner": false,
+      "exhibitorId": "ex-2",
+      "createdBy": "Dostawca Premium Tech"
+    },
+    {
+      "id": "0b09de34-2cb4-428b-9efd-3c6bcffacc9e",
+      "clientName": "26725",
+      "orderValue": 16710,
+      "ticketNumber": "#3C2AA9",
+      "createdAt": 1793122722029,
+      "isWinner": false,
+      "exhibitorId": "ex-1",
+      "createdBy": "Stoisko Główne HASta"
+    },
+    {
+      "id": "55ab221b-a0f0-47f4-a94b-1e01a3219917",
+      "clientName": "test",
+      "orderValue": 2222,
+      "ticketNumber": "#72E370",
+      "createdAt": 1793122838890,
+      "isWinner": true,
+      "exhibitorId": "79c6ef14-14fb-42fa-adc8-dceec9bd603a",
+      "createdBy": "Paweł"
+    },
+    {
+      "id": "950fcefe-f03f-4c7e-b61b-9d90e9808488",
+      "clientName": "Jan Kowalski - Sklep Ogrodniczy",
+      "orderValue": 8400,
+      "ticketNumber": "#56A0E6",
+      "createdAt": 1793123453313,
+      "isWinner": true,
+      "exhibitorId": "7fe39e20-78cc-4b22-b213-f0593fb3089e",
+      "createdBy": "Firma Testowa Sp. z o.o.",
+      "syncedToErp": false,
+      "erpSyncedAt": null,
+      "erpReference": null
+    },
+    {
+      "id": "95a38b62-baf2-4738-9761-517d9d2d66dc",
+      "clientName": "Jan Kowalski - Sklep Ogrodniczy",
+      "orderValue": 8400,
+      "ticketNumber": "#21EE15",
+      "createdAt": 1793123644719,
+      "isWinner": true,
+      "exhibitorId": "d1261b31-7576-4949-8286-3a80c99e38c9",
+      "createdBy": "Firma Testowa Sp. z o.o.",
+      "syncedToErp": false,
+      "erpSyncedAt": null,
+      "erpReference": null
+    }
+  ]
+}
